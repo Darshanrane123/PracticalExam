@@ -35,3 +35,13 @@ git branch
 
 
 auth token url http://localhost:8080/buildByToken/buildWithParameters?token=1234&job=h&whoami=pranit&filename=test.txt
+
+fork commands
+git clone https://github.com/Darshanrane123/Python-Game-Arcade.git                   fork and our url
+cd Python-Game-Arcade
+git remote add upstream https://github.com/Sujay-85/Python-Game-Arcade.git
+ git fetch upstream
+ git merge upstream/main
+fetch after changes $ git fetch upstream
+merge changes$  git merge upstream/main
+
