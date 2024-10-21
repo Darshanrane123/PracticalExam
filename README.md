@@ -45,3 +45,5 @@ git remote add upstream https://github.com/Sujay-85/Python-Game-Arcade.git
 fetch after changes $ git fetch upstream
 merge changes$  git merge upstream/main
 
+git push origin main
+
